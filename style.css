@@ -1,0 +1,104 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Navigation menu styling */
+nav {
+    background-color: #222;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styling */
+.hero {
+    background-image: url('your-hero-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust to your preference */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff; /* Text color for the hero section */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better contrast */
+}
+
+/* Main content styling */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left; /* Adjust text alignment */
+    margin: 20px 0; /* Add spacing between sections */
+}
+
+.content h2 {
+    font-size: 24px; /* Heading font size */
+    margin-bottom: 10px;
+    color: #333; /* Text color for headings */
+}
+
+.content p {
+    font-size: 16px; /* Paragraph font size */
+    line-height: 1.4;
+    color: #555; /* Text color for paragraphs */
+}
+
+/* Link styling */
+a {
+    color: #0077cc; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px; /* Footer text font size */
+}
